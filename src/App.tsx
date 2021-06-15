@@ -13,8 +13,6 @@ const App = () => {
   const [filter, setFilter] = useState("state");
   const { isLoading, error, data, rawdata } = UseAppState();
 
-  console.log(isLoading, error, data, rawdata)
-
   return (
     <div className="container-fluid my-5">
       {isLoading && <div style={{ height: "50vh", display: "grid", placeItems: "center" }}>
@@ -30,13 +28,13 @@ const App = () => {
           </div>
           <div className="col-12">
             <div className="d-flex justify-content-center">
-                <div className="form-group">
-                  <label htmlFor="filter">Filter By</label>
-                  <select className="custom-select" defaultValue={filter} onChange={(e) => setFilter(e.currentTarget.value)}>
-                    {filters.map((filter, i) => <option key={i} value={filter.value}>{filter.label}</option>)}
-                  </select>
-                  <small id="helpId" className="form-text text-muted">Analyse by specific filter</small>
-                </div>
+              <div className="form-group">
+                <label htmlFor="filter">Filter By</label>
+                <select className="custom-select" defaultValue={filter} onChange={(e) => setFilter(e.currentTarget.value)}>
+                  {filters.map((filter, i) => <option key={i} value={filter.value}>{filter.label}</option>)}
+                </select>
+                <small id="helpId" className="form-text text-muted">Analyse by specific filter</small>
+              </div>
             </div>
           </div>
           <div className="col-md-6">
