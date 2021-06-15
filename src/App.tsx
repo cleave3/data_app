@@ -10,7 +10,7 @@ import { filters } from "./utils/utilities";
 
 const App = () => {
 
-  const [filter, setFilter] = useState("state");
+  const [filter, setFilter] = useState("category");
   const { isLoading, error, data, rawdata } = UseAppState();
 
   return (

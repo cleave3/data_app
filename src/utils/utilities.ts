@@ -10,11 +10,11 @@ export const generateRandomColors = (length: number) => {
 }
 
 export const filters = [
-    { label: "STATE", value: "state" },
-    { label: "SEGMENT", value: "segment" },
-    { label: "SHIP MODE", value: "shipmode" },
-    { label: "REGION", value: "region" },
     { label: "CATEGORY", value: "category" },
+    { label: "SEGMENT", value: "segment" },
+    { label: "REGION", value: "region" },
+    { label: "SHIP MODE", value: "shipmode" },
+    { label: "STATE", value: "state" },
     // { label: "CITY", value: "city" }
 ]
 
