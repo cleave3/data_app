@@ -11,7 +11,7 @@ const columns = [
         sortable: true,
         selector: "Customer Name"
     },
-    
+
     {
         name: 'Customer ID',
         sortable: true,
@@ -41,7 +41,7 @@ const columns = [
         name: 'Region',
         sortable: true,
         selector: "Region"
-    },    
+    },
     {
         name: 'State',
         sortable: true,
@@ -66,7 +66,7 @@ const columns = [
         name: 'Quantity',
         sortable: true,
         selector: "Quantity"
-    },    
+    },
     {
         name: 'Profit',
         sortable: true,
@@ -102,7 +102,7 @@ const columns = [
 const Datatable = ({ data }) => {
     return (
         <DataTable
-        title="Order Record"
+            title="Sales Record"
             data={data}
             columns={columns}
             fixedHeader={true}

@@ -24,7 +24,7 @@ const App = () => {
       {data && <Fragment>
         <div className="row">
           <div className="col-12">
-            <h1 className="text-center">RESULTS ANALYSIS</h1>
+            <h1 className="text-center">SALES REPORT ANALYSIS</h1>
           </div>
           <div className="col-12">
             <div className="d-flex justify-content-center">
