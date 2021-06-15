@@ -31,3 +31,13 @@ View Deployed version <a href="https://datamelonapp.netlify.app/">https://datame
 ```
 
 5. Open your browser and navigate to <a href="http://localhost:3000">http://localhost:3000</a>
+
+### Deploying the App
+
+1. On the root directory, run
+
+```
+    npm build
+```
+
+2. Copy the build folder generated and deploy to any hosting platform of your choice
